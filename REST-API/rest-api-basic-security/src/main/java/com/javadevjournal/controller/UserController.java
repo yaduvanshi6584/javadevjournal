@@ -11,4 +11,9 @@ public class UserController {
     public User getUser(){
         return new User("Defaut User", "1", 40);
     }
+    
+    @GetMapping("/user2")
+    public User getUser2(){
+        return new User("Defaut User", "1", 100);
+    }
 }
